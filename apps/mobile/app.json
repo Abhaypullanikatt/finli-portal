@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Financial Companion",
+    "slug": "financial-companion",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "financial-companion",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "in.financialcompanion.beta",
+      "adaptiveIcon": {
+        "backgroundColor": "#FBFAF8"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "in.financialcompanion.beta",
+      "supportsTablet": true
+    },
+    "plugins": ["expo-router", "expo-secure-store", "expo-asset", "expo-font"],
+    "experiments": {
+      "typedRoutes": true,
+      "autolinkingModuleResolution": true
+    }
+  }
+}

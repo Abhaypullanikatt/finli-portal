@@ -1,0 +1,173 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                    String                     @id @default(uuid())
+  email                 String                     @unique
+  createdAt             DateTime                   @default(now())
+  deletedAt             DateTime?
+  profileSnapshots      FinancialProfile[]
+  assessments           Assessment[]
+  roadmaps              Roadmap[]
+  investmentPreferences InvestmentPreference[]
+  investmentResults     InvestmentExplorerResult[]
+  consents              Consent[]
+  transactions          Transaction[]
+  transactionProposals  TransactionProposal[]
+  consultations         Consultation[]
+  auditEvents           AuditEvent[]
+}
+
+model FinancialProfile {
+  id        String   @id @default(uuid())
+  userId    String
+  version   Int
+  payload   Json
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, version])
+  @@index([userId, createdAt])
+}
+
+model Assessment {
+  id                String   @id @default(uuid())
+  userId            String
+  profileSnapshotId String
+  ruleSetVersion    String
+  payload           Json
+  createdAt         DateTime @default(now())
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([profileSnapshotId])
+}
+
+model Roadmap {
+  id             String   @id @default(uuid())
+  userId         String
+  assessmentId   String
+  ruleSetVersion String
+  payload        Json
+  createdAt      DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([assessmentId])
+}
+
+model InvestmentPreference {
+  id                String   @id @default(uuid())
+  userId            String
+  version           Int
+  profileSnapshotId String
+  assessmentId      String
+  disclosureVersion String
+  payload           Json
+  createdAt         DateTime @default(now())
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, version])
+  @@index([userId, createdAt])
+  @@index([profileSnapshotId])
+  @@index([assessmentId])
+}
+
+model InvestmentExplorerResult {
+  id                     String   @id @default(uuid())
+  userId                 String
+  preferenceSnapshotId   String
+  profileSnapshotId      String
+  assessmentId           String
+  ruleSetVersion         String
+  categoryContentVersion String
+  reviewStatus           String
+  payload                Json
+  createdAt              DateTime @default(now())
+  user                   User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([preferenceSnapshotId])
+  @@index([profileSnapshotId])
+  @@index([assessmentId])
+}
+
+model Consent {
+  id                String    @id @default(uuid())
+  userId            String
+  purpose           String
+  disclosureVersion String
+  granted           Boolean
+  decidedAt         DateTime
+  withdrawnAt       DateTime?
+  retentionPolicy   String
+  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, purpose, decidedAt])
+}
+
+model Transaction {
+  id             String   @id @default(uuid())
+  userId         String
+  amountPaise    BigInt
+  currency       String   @default("INR")
+  occurredOn     DateTime
+  description    String
+  category       String
+  source         String
+  proposalId     String?
+  idempotencyKey String?
+  createdAt      DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, idempotencyKey])
+  @@index([userId, occurredOn])
+}
+
+model TransactionProposal {
+  id          String    @id @default(uuid())
+  userId      String
+  payload     Json
+  transcript  String
+  confidence  Float
+  expiresAt   DateTime
+  confirmedAt DateTime?
+  createdAt   DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+}
+
+model Consultation {
+  id              String   @id @default(uuid())
+  userId          String
+  topic           String
+  preferredWindow String
+  context         Json?
+  status          String
+  createdAt       DateTime @default(now())
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model AuditEvent {
+  id         String   @id @default(uuid())
+  userId     String?
+  actorId    String
+  action     String
+  targetType String
+  targetId   String?
+  metadata   Json?
+  createdAt  DateTime @default(now())
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([actorId, createdAt])
+}

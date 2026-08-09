@@ -1,0 +1,212 @@
+[
+  {
+    "id": "lesson-cash-flow",
+    "slug": "monthly-cash-flow",
+    "title": "Create breathing room in your month",
+    "summary": "Understand where income goes and identify a realistic first adjustment.",
+    "body": [
+      "Monthly cash flow is income minus expenses and debt payments.",
+      "Start with one adjustable category. A small repeatable change is more useful than an unrealistic budget.",
+      "This lesson provides general education and does not recommend a financial product."
+    ],
+    "minutes": 3,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-high-cost-debt",
+    "slug": "high-cost-debt",
+    "title": "Why expensive debt often comes first",
+    "summary": "Learn how high interest costs compete with saving and investing.",
+    "body": [
+      "Interest on unpaid high-cost debt can compound against you.",
+      "Keep a small emergency buffer while building a repayment plan that you can maintain.",
+      "Ask a qualified professional for help if minimum payments are becoming difficult."
+    ],
+    "minutes": 4,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-emergency-fund",
+    "slug": "emergency-fund",
+    "title": "Build an emergency fund in stages",
+    "summary": "Create a starter buffer, then work toward deeper resilience.",
+    "body": [
+      "Emergency savings are intended for urgent and unexpected needs.",
+      "Keep this money accessible and separate from long-term market investments.",
+      "The right amount depends on income stability, dependants, protection and essential expenses."
+    ],
+    "minutes": 4,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-protection",
+    "slug": "protection-basics",
+    "title": "Understand protection before comparing policies",
+    "summary": "Learn what health and life cover are designed to do.",
+    "body": [
+      "Insurance transfers specific risks; it is not a guaranteed wealth-building shortcut.",
+      "Coverage needs depend on dependants, liabilities, existing benefits and affordability.",
+      "Read exclusions, waiting periods, costs and claim conditions before choosing a policy."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-goals",
+    "slug": "define-a-goal",
+    "title": "Turn an intention into a goal",
+    "summary": "Give a goal a target amount, date and priority.",
+    "body": [
+      "A clear goal helps determine how much liquidity and uncertainty you can accept.",
+      "Separate near-term needs from long-term goals so one does not accidentally fund the other.",
+      "Review the amount and date when your circumstances change."
+    ],
+    "minutes": 3,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-investment-categories",
+    "slug": "investment-categories",
+    "title": "Compare categories, not recent winners",
+    "summary": "Compare purpose, risk, liquidity, time horizon and cost.",
+    "body": [
+      "Cash, deposits, bonds, diversified funds, equity, gold and real assets behave differently.",
+      "Recent returns do not establish future suitability or future performance.",
+      "This beta explains general categories and does not recommend a fund, stock or product."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-fixed-deposits",
+    "slug": "fixed-deposit-basics",
+    "title": "Read a fixed deposit beyond the headline rate",
+    "summary": "Compare the term, access conditions, institution, renewal instructions and inflation trade-off.",
+    "body": [
+      "A fixed deposit usually states an interest rate for a defined term, but access before maturity can come with conditions.",
+      "Compare the institution, maturity date, premature-access terms and renewal instructions instead of looking only at the rate.",
+      "This lesson explains a category and does not identify a financial product."
+    ],
+    "minutes": 4,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-government-savings",
+    "slug": "government-savings-basics",
+    "title": "Match a savings scheme to its time commitment",
+    "summary": "Understand eligibility, contribution rules, maturity, access and changing tax rules.",
+    "body": [
+      "Government backing does not make every savings scheme interchangeable.",
+      "Eligibility, contribution limits, maturity periods and access conditions can differ substantially.",
+      "Keep emergency money separate from savings that cannot be accessed easily."
+    ],
+    "minutes": 4,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-bonds",
+    "slug": "bond-basics",
+    "title": "Separate bond yield from bond safety",
+    "summary": "Learn how credit quality, interest rates, maturity and liquidity shape a bond.",
+    "body": [
+      "A bond is an obligation from an issuer, not a promise that every market outcome will be stable.",
+      "Issuer quality, maturity, payment structure and the ability to exit all matter alongside the quoted yield.",
+      "Higher quoted yield can reflect higher risk rather than a better opportunity."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-diversified-mutual-funds",
+    "slug": "diversified-mutual-fund-basics",
+    "title": "Understand what sits inside a mutual fund",
+    "summary": "Compare mandates, underlying assets, diversification, costs and category risk.",
+    "body": [
+      "A mutual fund pools money under a stated mandate, and that mandate determines what risks sit underneath.",
+      "Debt-oriented, equity-oriented and mixed categories can behave differently even when they share the same wrapper.",
+      "Recent performance alone does not explain diversification, cost, concentration or future uncertainty."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-equity-stock-learning",
+    "slug": "equity-stock-learning-basics",
+    "title": "Study a business before studying its share price",
+    "summary": "Learn ownership, business quality, concentration, valuation uncertainty and market declines.",
+    "body": [
+      "A share represents ownership in a business whose future results remain uncertain.",
+      "Business quality, debt, competition and valuation all matter, while a familiar name or rising price proves very little.",
+      "Diversification limits dependence on one company but cannot remove broad market losses."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-gold",
+    "slug": "gold-basics",
+    "title": "Compare the different forms of gold",
+    "summary": "Understand price variability, storage, purity, spreads and product structure.",
+    "body": [
+      "Physical and financial forms of gold can have different costs, access conditions and operational risks.",
+      "Storage, purity verification, spreads and product expenses can change the result even when the reference price is similar.",
+      "Gold can diversify economic exposures, but it does not produce business earnings and can decline for long periods."
+    ],
+    "minutes": 4,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-reits",
+    "slug": "reit-basics",
+    "title": "Look through a REIT to the properties underneath",
+    "summary": "Study occupancy, tenants, leverage, distributions, manager quality and market pricing.",
+    "body": [
+      "A listed real-estate trust provides exposure to a portfolio of properties through a market-traded structure.",
+      "Occupancy, tenant concentration, borrowing, property quality and manager decisions can affect distributions and value.",
+      "A high distribution rate does not explain whether the underlying income is durable."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  },
+  {
+    "id": "lesson-direct-real-estate",
+    "slug": "direct-real-estate-basics",
+    "title": "Calculate the full commitment behind a property",
+    "summary": "Include financing, transaction costs, maintenance, concentration, legal checks and exit time.",
+    "body": [
+      "Property ownership combines an asset with financing, operating expenses, legal work and a potentially slow exit.",
+      "The headline price does not include every cost: registration, borrowing, maintenance, vacancy and repairs can matter.",
+      "A single property can concentrate household wealth in one location and one asset."
+    ],
+    "minutes": 5,
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "reviewStatus": "draft"
+  }
+]

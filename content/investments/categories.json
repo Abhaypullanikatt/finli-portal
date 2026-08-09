@@ -1,0 +1,402 @@
+[
+  {
+    "key": "fixed_deposits",
+    "slug": "fixed-deposits",
+    "title": "Fixed deposits",
+    "shortTitle": "Fixed deposits",
+    "summary": "Understand fixed-rate deposits, access restrictions, and the role they can play in shorter-horizon planning.",
+    "purpose": "Setting aside money for a defined period with a stated interest rate.",
+    "riskLabel": "Generally lower variability, with institution and inflation considerations",
+    "variability": "The stated rate is usually fixed for the deposit term, while the real value of the money can change with inflation.",
+    "typicalHorizon": "Months to several years, depending on the deposit term.",
+    "liquidity": "Often accessible before maturity with conditions or penalties; exact terms vary.",
+    "minimumPracticalAmount": "Varies by institution and deposit type.",
+    "costs": "Review premature-withdrawal conditions, renewal settings, and any linked-account charges.",
+    "taxCaveat": "Interest and tax treatment depend on current law and personal circumstances; verify before acting.",
+    "advantages": [
+      "Simple structure and a stated rate for a defined term.",
+      "Useful for learning how maturity dates can map to planned expenses."
+    ],
+    "limitations": [
+      "Inflation can reduce purchasing power.",
+      "Early access can change the effective return or trigger a penalty."
+    ],
+    "commonMistakes": [
+      "Treating every institution and deposit as identical.",
+      "Ignoring maturity instructions and access conditions."
+    ],
+    "lessonId": "lesson-fixed-deposits",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 0,
+      "minimumLearningHorizonYears": 0,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "government_savings",
+    "slug": "government-savings",
+    "title": "Government-backed savings",
+    "shortTitle": "Govt. savings",
+    "summary": "Learn how different government-backed savings structures vary in eligibility, term, access, and tax treatment.",
+    "purpose": "Saving toward defined medium- or long-term needs through schemes with government backing.",
+    "riskLabel": "Lower credit-risk perception does not remove term, access, or inflation trade-offs",
+    "variability": "Terms may be stated, but rates, contribution rules, and future scheme conditions can change.",
+    "typicalHorizon": "Often multiple years; each scheme has its own term.",
+    "liquidity": "Frequently restricted, conditional, or tied to a maturity schedule.",
+    "minimumPracticalAmount": "Scheme-specific; eligibility and contribution limits can apply.",
+    "costs": "Review administrative rules, missed-contribution effects, and exit conditions.",
+    "taxCaveat": "Deductions, exemptions, and maturity treatment vary by scheme and can change.",
+    "advantages": [
+      "Can support disciplined saving for a defined purpose.",
+      "Published scheme rules make comparison possible."
+    ],
+    "limitations": [
+      "Long lock-ins can conflict with emergency needs.",
+      "Eligibility and contribution limits may restrict access."
+    ],
+    "commonMistakes": [
+      "Selecting a scheme for a tax feature without checking the term.",
+      "Using locked savings as an emergency fund."
+    ],
+    "lessonId": "lesson-government-savings",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 0,
+      "minimumLearningHorizonYears": 1,
+      "liquidityBand": "low",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "bonds",
+    "slug": "bonds",
+    "title": "Bonds",
+    "shortTitle": "Bonds",
+    "summary": "Learn how issuer quality, interest-rate movement, maturity, and market liquidity affect debt instruments.",
+    "purpose": "Lending money to an issuer in exchange for defined payment obligations.",
+    "riskLabel": "Ranges widely by issuer, structure, maturity, and market conditions",
+    "variability": "Market values can move when interest rates or credit expectations change.",
+    "typicalHorizon": "Commonly matched to a maturity date or a multi-year goal.",
+    "liquidity": "Some instruments trade actively while others can be difficult to exit.",
+    "minimumPracticalAmount": "Varies by instrument and access channel.",
+    "costs": "Consider spreads, platform charges, taxes, and the effect of exiting before maturity.",
+    "taxCaveat": "Interest and capital treatment depend on instrument structure and current law.",
+    "advantages": [
+      "Introduces defined payment schedules and maturity planning.",
+      "Can help explain the difference between credit risk and price variability."
+    ],
+    "limitations": [
+      "Issuer default and downgrade risk can cause losses.",
+      "A quoted yield is not a guarantee of the realised outcome."
+    ],
+    "commonMistakes": [
+      "Looking only at the highest quoted yield.",
+      "Assuming every bond is easy to exit."
+    ],
+    "lessonId": "lesson-bonds",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 1,
+      "minimumLearningHorizonYears": 2,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "diversified_mutual_funds",
+    "slug": "diversified-mutual-funds",
+    "title": "Diversified mutual funds",
+    "shortTitle": "Mutual funds",
+    "summary": "Understand pooled investing, category differences, diversification, costs, and why fund labels matter.",
+    "purpose": "Pooling money across a managed basket of assets according to a stated mandate.",
+    "riskLabel": "Depends on the underlying assets, mandate, concentration, and duration",
+    "variability": "Values change with the underlying portfolio; different categories can behave very differently.",
+    "typicalHorizon": "From shorter-term debt-oriented learning to long-term equity-oriented learning.",
+    "liquidity": "Many open-ended structures offer periodic access, subject to settlement and scheme rules.",
+    "minimumPracticalAmount": "Varies by scheme and contribution method.",
+    "costs": "Review expense ratios, exit conditions, taxes, and tracking or management differences.",
+    "taxCaveat": "Tax treatment differs by portfolio composition, holding period, and current rules.",
+    "advantages": [
+      "Makes diversification and professional management easier to study.",
+      "Published mandates provide a basis for category comparison."
+    ],
+    "limitations": [
+      "A broad category name can hide important portfolio differences.",
+      "Diversification reduces some risks but cannot remove market losses."
+    ],
+    "commonMistakes": [
+      "Following recent performance without reading the mandate.",
+      "Treating all mutual-fund categories as having the same risk."
+    ],
+    "lessonId": "lesson-diversified-mutual-funds",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 2,
+      "minimumLearningHorizonYears": 3,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "equity_stock_learning",
+    "slug": "equity-stock-learning",
+    "title": "Equity and stock learning",
+    "shortTitle": "Stocks",
+    "summary": "Study ownership, business quality, diversification, valuation uncertainty, and large market declines without security picks.",
+    "purpose": "Learning how ownership in businesses can participate in long-term growth while accepting uncertainty.",
+    "riskLabel": "High variability and a real possibility of substantial or permanent loss",
+    "variability": "Prices can move sharply and remain below prior levels for long periods.",
+    "typicalHorizon": "Usually studied in a long-term context rather than for near-term spending needs.",
+    "liquidity": "Market access does not guarantee a favourable exit price.",
+    "minimumPracticalAmount": "Learning does not require committing money; market access and lot rules vary.",
+    "costs": "Consider brokerage, taxes, spreads, research time, and concentration risk.",
+    "taxCaveat": "Tax treatment depends on transaction type, holding period, and current law.",
+    "advantages": [
+      "Builds understanding of business ownership and compounding.",
+      "Makes the cost of concentration and weak analysis visible."
+    ],
+    "limitations": [
+      "Company-specific outcomes can differ dramatically from broad markets.",
+      "Past performance and a familiar brand do not establish future outcomes."
+    ],
+    "commonMistakes": [
+      "Confusing a good company with an attractive valuation.",
+      "Concentrating money needed for near-term goals."
+    ],
+    "lessonId": "lesson-equity-stock-learning",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 3,
+      "minimumLearningHorizonYears": 7,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "gold",
+    "slug": "gold",
+    "title": "Gold",
+    "shortTitle": "Gold",
+    "summary": "Compare physical and financial forms of gold, price variability, storage, liquidity, and concentration.",
+    "purpose": "Learning how gold can behave differently from income-producing assets.",
+    "riskLabel": "Market-linked variability with product-form, storage, and concentration considerations",
+    "variability": "Prices can rise or fall for extended periods and do not produce business earnings.",
+    "typicalHorizon": "Commonly considered in medium- or long-term diversification discussions.",
+    "liquidity": "Depends on the form, market, purity verification, and exit channel.",
+    "minimumPracticalAmount": "Varies widely across physical and financial forms.",
+    "costs": "Review spreads, making charges, storage, insurance, custody, and product expenses.",
+    "taxCaveat": "Tax treatment depends on the form of exposure and current rules.",
+    "advantages": [
+      "Useful for learning diversification across different economic drivers.",
+      "Multiple access forms reveal how structure changes cost and liquidity."
+    ],
+    "limitations": [
+      "Gold does not generate operating cash flow.",
+      "Physical forms introduce purity, storage, and resale considerations."
+    ],
+    "commonMistakes": [
+      "Ignoring spreads and making charges.",
+      "Assuming gold always protects purchasing power over every period."
+    ],
+    "lessonId": "lesson-gold",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 2,
+      "minimumLearningHorizonYears": 3,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "reits",
+    "slug": "reits",
+    "title": "Real estate investment trusts",
+    "shortTitle": "REITs",
+    "summary": "Learn how listed real-estate trusts combine property exposure, market pricing, distributions, and manager risk.",
+    "purpose": "Studying pooled, listed exposure to income-producing real-estate assets.",
+    "riskLabel": "Market-linked variability with property, leverage, tenant, and manager risks",
+    "variability": "Listed prices and distributions can change with rates, occupancy, leverage, and property conditions.",
+    "typicalHorizon": "Generally studied with a multi-year perspective.",
+    "liquidity": "Exchange trading can provide access, but price and trading depth can vary.",
+    "minimumPracticalAmount": "Depends on market price, lot rules, and access channel.",
+    "costs": "Review management expenses, transaction costs, leverage, and property-level charges.",
+    "taxCaveat": "Different distribution components can receive different tax treatment.",
+    "advantages": [
+      "Provides a way to study property economics without managing a property directly.",
+      "Published reports can make income, occupancy, and leverage more visible."
+    ],
+    "limitations": [
+      "Listed pricing can be volatile even when properties are occupied.",
+      "Sector or city concentration can be significant."
+    ],
+    "commonMistakes": [
+      "Looking only at the distribution rate.",
+      "Ignoring leverage, tenant concentration, and asset quality."
+    ],
+    "lessonId": "lesson-reits",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 2,
+      "minimumLearningHorizonYears": 5,
+      "liquidityBand": "medium",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  },
+  {
+    "key": "direct_real_estate",
+    "slug": "direct-real-estate",
+    "title": "Direct real estate",
+    "shortTitle": "Real estate",
+    "summary": "Study large-ticket property ownership through affordability, financing, maintenance, concentration, and exit constraints.",
+    "purpose": "Learning how direct property ownership combines use value, financing, operating costs, and market exposure.",
+    "riskLabel": "Concentrated, illiquid, and sensitive to location, financing, legal, and property-specific factors",
+    "variability": "Appraisals can appear stable while achievable sale prices and time-to-exit vary significantly.",
+    "typicalHorizon": "Usually a long-duration commitment.",
+    "liquidity": "Low; transactions can take time and involve material friction.",
+    "minimumPracticalAmount": "Typically substantial, with financing and transaction requirements.",
+    "costs": "Consider financing, stamp duty, registration, brokerage, maintenance, vacancy, insurance, and repairs.",
+    "taxCaveat": "Ownership, rental, financing, and transfer can each have separate tax consequences.",
+    "advantages": [
+      "Connects a tangible asset with housing or income objectives.",
+      "Makes leverage, cash-flow, and concentration trade-offs concrete."
+    ],
+    "limitations": [
+      "A single property can dominate household wealth.",
+      "Legal, title, construction, tenant, and maintenance risks require specialist checks."
+    ],
+    "commonMistakes": [
+      "Comparing only headline prices and ignoring total ownership cost.",
+      "Assuming a quick exit will always be available."
+    ],
+    "lessonId": "lesson-direct-real-estate",
+    "classification": "FINANCIAL-EDUCATION",
+    "contentVersion": "2026-07-draft.1",
+    "matching": {
+      "variabilityRank": 3,
+      "minimumLearningHorizonYears": 7,
+      "liquidityBand": "low",
+      "ruleSetVersion": "2026-07-draft.1",
+      "review": {
+        "status": "draft",
+        "reviewerRole": "qualified_financial_reviewer",
+        "reviewerName": null,
+        "reviewerCredential": null,
+        "reviewedAt": null
+      }
+    },
+    "review": {
+      "status": "draft",
+      "reviewerRole": "qualified_financial_reviewer",
+      "reviewerName": null,
+      "reviewerCredential": null,
+      "reviewedAt": null
+    }
+  }
+]

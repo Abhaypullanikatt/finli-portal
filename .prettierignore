@@ -1,0 +1,13 @@
+node_modules/
+.turbo/
+dist/
+**/dist*/
+.expo/
+.next/
+coverage/
+.env.example
+.gitignore
+architecture.md
+workflow-guidelines.md
+expo-tunnel-qr.svg
+pnpm-lock.yaml

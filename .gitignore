@@ -1,0 +1,12 @@
+node_modules/
+.turbo/
+dist/
+.expo/
+.next/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+apps/api/prisma/migrations/
+
