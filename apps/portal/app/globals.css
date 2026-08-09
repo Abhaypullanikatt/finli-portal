@@ -665,3 +665,20 @@ main { overflow: clip; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } .stack-section { --goals-y: -120px; --confirm-y: 232px; --companion-y: 0px; --picture-y: 0px; --signals-y: 0px; --companion-opacity: 1; --picture-opacity: 1; --modules-opacity: 1; --companion-clip: 0%; --picture-clip: 0%; --signals-clip: 0%; }.stack-step { min-height: auto; padding: 70px 0; opacity: 1; transform: none; }.stack-visual { position: relative; top: auto; height: 760px; }.scroll-parallax { height: auto; padding: 14px 0; }.scroll-sticky { position: relative; top: auto; height: 720px; }.scroll-float,.scroll-final,.scroll-progress { display: none; } }
 @media (max-width: 620px) and (prefers-reduced-motion: reduce) { .stack-visual { height: auto; }.stack-step { padding: 0 0 56px; }.stack-step:last-child { padding-bottom: 0; } }
+
+/* Supporting copy uses the same medium voice as the hero subheading. */
+.statement-copy,
+.vision-center > p:not(.section-label),
+.feature-heading > p,
+.feature-caption,
+.bento-heading > p,
+.bento-copy > p,
+.privacy-copy > p:not(.section-label),
+.faq-intro > p:not(.section-label),
+.footer-intro > p,
+.about-hero-copy > p:not(.section-label),
+.about-story-copy > p,
+.about-proof p,
+.about-manifesto-foot p,
+.about-principles-head > p:last-child,
+.about-closing > p:not(.section-label) { font-weight: 500; }
