@@ -140,6 +140,11 @@ export function FinancialStack() {
         </div>
 
         <div className="stack-visual" aria-label="An exploded diagram showing how Finli organizes financial context">
+          <div className="stack-mobile-intro">
+            <span>HOW FINLI HELPS</span>
+            <strong>Your money, connected clearly.</strong>
+            <p>From what matters to you, to a next step you control.</p>
+          </div>
           <div className="stack-axis" aria-hidden="true" />
           <div className="stack-assembly">
             <div className="stack-plane stack-goals">
