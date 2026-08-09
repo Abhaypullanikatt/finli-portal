@@ -7,7 +7,7 @@
     "node": ">=22.13"
   },
   "scripts": {
-    "build": "npm --prefix apps/portal run build",
+    "build": "npm --prefix apps/portal install --ignore-scripts && npm --prefix apps/portal run build",
     "dev": "FINANCIAL_COMPANION_API_EXTERNAL=true turbo run dev --parallel",
     "dev:mobile": "pnpm --filter @financial-companion/mobile dev",
     "test": "turbo run test",
@@ -20,5 +20,11 @@
     "prettier": "^3.6.2",
     "turbo": "^2.5.6",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "lenis": "^1.3.26",
+    "next": "^16.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   }
 }
