@@ -7,7 +7,7 @@
     "node": ">=22.13"
   },
   "scripts": {
-    "build": "turbo run build",
+    "build": "npm --prefix apps/portal run build",
     "dev": "FINANCIAL_COMPANION_API_EXTERNAL=true turbo run dev --parallel",
     "dev:mobile": "pnpm --filter @financial-companion/mobile dev",
     "test": "turbo run test",
