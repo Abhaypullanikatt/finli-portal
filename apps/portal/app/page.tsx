@@ -50,15 +50,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="statement section-pad" id="how">
-        <p className="section-label">A DIFFERENT KIND OF FINANCE APP</p>
-        <h2>Your money life is already <em className="editorial-word">complicated.</em><br />Your app shouldn’t be.</h2>
-        <p className="statement-copy">
-          Finli turns everyday choices into a simple, explainable path.
-          No trading, no product pushing, and no shame—just context you can use.
-        </p>
-      </section>
-
       <VisionSplit />
 
       <FinancialStack />
