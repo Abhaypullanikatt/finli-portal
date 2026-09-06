@@ -160,14 +160,25 @@ export default function HomePage() {
 
           <nav className="footer-links" aria-label="Footer navigation">
             <div>
-              <p>Explore</p>
+              <p>Product</p>
               <a href="#how">How it works</a>
-              <a href="/about">About us</a>
+              <a href="#features">Features</a>
+              <a href="#faq">FAQs</a>
             </div>
             <div>
-              <p>Trust</p>
+              <p>Company</p>
+              <a href="/about">About us</a>
+              <a href="mailto:beta@financialcompanion.app">Contact</a>
+            </div>
+            <div>
+              <p>Legal</p>
               <a href="#privacy">Privacy</a>
-              <a href="mailto:beta@financialcompanion.app">Contact us</a>
+              <a href="#privacy">Your controls</a>
+            </div>
+            <div>
+              <p>Elsewhere</p>
+              <a href="#home">Back to top</a>
+              <a href="mailto:beta@financialcompanion.app">Email us</a>
             </div>
           </nav>
         </div>
