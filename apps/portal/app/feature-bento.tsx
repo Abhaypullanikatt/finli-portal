@@ -74,18 +74,6 @@ export function FeatureBento() {
           </div>
         </article>
 
-        <article className="bento-card bento-controls">
-          <div className="bento-copy">
-            <span className="bento-tag">YOUR DATA</span>
-            <h3>Clear controls, whenever you need them.</h3>
-            <p>Review consent history, export your records, or delete your information without hunting through menus.</p>
-          </div>
-          <div className="control-list">
-            <span>Consent history <b>↗</b></span>
-            <span>Export my data <b>↓</b></span>
-            <span>Delete my account <b>×</b></span>
-          </div>
-        </article>
       </div>
     </section>
   );
