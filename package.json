@@ -7,7 +7,7 @@
     "node": ">=22.13"
   },
   "scripts": {
-    "build": "npm --prefix apps/portal install --ignore-scripts --no-audit && npm --prefix apps/portal run build",
+    "build": "npm --prefix apps/portal install --ignore-scripts --no-audit && SITES_EXPORT=1 npm --prefix apps/portal run build && node scripts/build-sites-output.mjs",
     "dev": "FINANCIAL_COMPANION_API_EXTERNAL=true turbo run dev --parallel",
     "dev:mobile": "pnpm --filter @financial-companion/mobile dev",
     "test": "turbo run test",
