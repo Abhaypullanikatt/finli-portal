@@ -95,8 +95,8 @@ export function ParallaxScene() {
       const tunnelScale = 0.96 + tunnelProgress * 0.12;
       const tunnelOpacity = 1 - ease(clamp((progress - 0.69) / 0.16));
       const introOpacity = 1 - ease(clamp((progress - 0.05) / 0.2));
-      const washOpacity = ease(clamp((progress - 0.88) / 0.12));
-      const finalOpacity = ease(clamp((progress - 0.93) / 0.07));
+      const washOpacity = ease(clamp((progress - 0.78) / 0.14));
+      const finalOpacity = ease(clamp((progress - 0.84) / 0.14));
 
       section.style.setProperty("--tunnel-scale", tunnelScale.toFixed(4));
       section.style.setProperty("--tunnel-rotate", `${(progress * 6).toFixed(3)}deg`);
@@ -123,12 +123,13 @@ export function ParallaxScene() {
       floatRefs.current.forEach((element) => {
         if (!element) return;
         const start = Number(element.dataset.start ?? 0);
-        const local = clamp((progress - start) / 0.28);
+        const duration = start >= 0.69 ? 0.22 : 0.28;
+        const local = clamp((progress - start) / duration);
         const visibility = Math.sin(local * Math.PI);
         const direction = Number(element.dataset.direction ?? 1);
-        const scale = 0.52 + ease(local) * 1.42;
-        const x = direction * (80 - local * 190);
-        const y = (0.5 - local) * 120;
+        const scale = 0.72 + ease(local) * 0.28;
+        const x = direction * (34 - local * 68);
+        const y = (0.5 - local) * 72;
 
         element.style.opacity = visibility.toFixed(4);
         element.style.transform = `translate3d(${x.toFixed(2)}px, ${y.toFixed(2)}px, 0) scale(${scale.toFixed(4)}) rotate(${(direction * (8 - local * 17)).toFixed(2)}deg)`;
