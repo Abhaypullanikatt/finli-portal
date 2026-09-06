@@ -5,6 +5,7 @@ import { FeatureBento } from "./feature-bento";
 import { VisionSplit } from "./vision-split";
 import { PrivacyShowcase } from "./privacy-showcase";
 import { BetaSignupTrigger } from "./beta-signup";
+import { ScrollWordReveal } from "./scroll-word-reveal";
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
@@ -102,7 +103,7 @@ export default function HomePage() {
         <PrivacyShowcase />
         <div className="privacy-copy">
           <p className="section-label">PRIVACY WITH A PURPOSE</p>
-            <h2>Built to help with real money, <em className="editorial-word">carefully.</em></h2>
+            <h2 className="privacy-word-heading"><ScrollWordReveal /></h2>
           <p>Your information should serve you—not an ad network. Important actions stay understandable, reviewable, and easy to revisit.</p>
           <div className="privacy-list">
             <div><span>01</span><p><strong>Confirm before it counts.</strong> Voice entries remain proposals until you review them.</p><i aria-hidden="true">↗</i></div>
