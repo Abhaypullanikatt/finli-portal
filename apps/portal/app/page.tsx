@@ -153,10 +153,8 @@ export default function HomePage() {
         <div className="footer-glow" aria-hidden="true" />
         <div className="footer-main">
           <div className="footer-intro">
-          <a className="brand footer-brand" href="#home" aria-label="Finli home"><FinliLogo footer /></a>
-            <h2>Clearer money <em className="editorial-word">decisions,</em><br />one step at a time.</h2>
-            <p>A calm financial companion for India’s first-salary generation.</p>
-            <BetaSignupTrigger className="footer-beta">Join the private beta <Arrow /></BetaSignupTrigger>
+            <a className="brand footer-brand" href="#home" aria-label="Finli home"><FinliLogo footer /></a>
+            <p className="footer-tagline">Clearer money decisions, one step at a time.</p>
           </div>
 
           <nav className="footer-links" aria-label="Footer navigation">
@@ -164,13 +162,10 @@ export default function HomePage() {
               <p>Explore</p>
               <a href="#how">How it works</a>
               <a href="/about">About us</a>
-              <a href="#features">Features</a>
-              <a href="#faq">FAQs</a>
             </div>
             <div>
               <p>Trust</p>
               <a href="#privacy">Privacy</a>
-              <a href="#privacy">Your controls</a>
               <a href="mailto:beta@financialcompanion.app">Contact us</a>
             </div>
           </nav>
@@ -179,9 +174,8 @@ export default function HomePage() {
         <div className="footer-bottom">
           <span>© 2026 Finli</span>
           <span>Education only · Not financial advice</span>
-          <span>Made thoughtfully in India</span>
+          <BetaSignupTrigger className="footer-beta">Join the beta <Arrow /></BetaSignupTrigger>
         </div>
-        <p className="footer-wordmark" aria-hidden="true">Finli</p>
       </footer>
     </main>
   );
