@@ -42,7 +42,7 @@ export default function HomePage() {
 
         <div className="hero-copy">
           <div className="pill"><span>Built for your first salary</span><Arrow /></div>
-          <h1>Money <em className="editorial-word">clarity,</em><br />without the money jargon.</h1>
+          <h1>Money <em className="editorial-word">clarity,</em><br />without the money jargon</h1>
           <p>
             A calm financial companion that helps young Indians understand
             spending, build a safety fund, and take one clear step at a time.
