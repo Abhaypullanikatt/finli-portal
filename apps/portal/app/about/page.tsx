@@ -10,7 +10,7 @@ const Arrow = () => <span aria-hidden="true">↗</span>;
 
 const FinliLogo = ({ footer = false }: { footer?: boolean }) => (
   <span className={`brand-logo${footer ? " brand-logo-footer" : ""}`} aria-hidden="true">
-    <img src="/branding/finli-logo-monochrome.png" alt="" />
+    <img src={footer ? "/branding/finli-logo-reverse-on-dark.png" : "/branding/finli-logo-reverse-on-dark.png"} alt="" />
   </span>
 );
 

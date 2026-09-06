@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     images: ["/branding/finli-website-thumbnail.png"],
   },
   icons: {
-      icon: "/branding/finli-logo-monochrome.png",
-      apple: "/branding/finli-logo-monochrome.png",
+      icon: "/branding/finli-mark-primary.png",
+      apple: "/branding/finli-mark-primary.png",
   },
 };
 

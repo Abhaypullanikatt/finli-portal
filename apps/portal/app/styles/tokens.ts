@@ -1,0 +1,35 @@
+export const tokens = {
+  color: {
+    forest950: "#0C2923",
+    forest800: "#173F32",
+    forest700: "#214B3B",
+    lime500: "#C9F36A",
+    sky500: "#C9EDFB",
+    peach500: "#F2C8AC",
+    ink950: "#11110F",
+    ink500: "#6F706A",
+    canvas: "#F3F2EE",
+    surface: "#FBFAF7",
+    white: "#FFFFFF",
+  },
+  space: {
+    1: 4,
+    2: 8,
+    3: 12,
+    4: 16,
+    5: 20,
+    6: 24,
+    8: 32,
+    10: 40,
+    12: 48,
+    16: 64,
+    20: 80,
+    24: 96,
+    32: 128,
+  },
+  radius: { sm: 8, md: 12, lg: 16, xl: 24, xxl: 32, pill: 999 },
+  duration: { fast: 120, base: 220, slow: 420 },
+  breakpoint: { sm: 480, md: 768, lg: 1024, xl: 1280 },
+} as const;
+
+export type FinliTokens = typeof tokens;

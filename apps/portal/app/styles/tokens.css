@@ -1,0 +1,141 @@
+:root {
+  color-scheme: light;
+
+  /* Brand primitives */
+  --finli-forest-950: #0c2923;
+  --finli-forest-900: #12362c;
+  --finli-forest-800: #173f32;
+  --finli-forest-700: #214b3b;
+  --finli-forest-600: #346451;
+  --finli-forest-300: #9bb7a1;
+  --finli-forest-100: #dfeae2;
+  --finli-forest-50: #eff5f0;
+  --finli-lime-500: #c9f36a;
+  --finli-lime-300: #dcf7a1;
+  --finli-lime-100: #effbd4;
+  --finli-sky-500: #c9edfb;
+  --finli-sky-100: #eaf8fc;
+  --finli-peach-500: #f2c8ac;
+  --finli-peach-100: #faeee6;
+  --finli-ink-950: #11110f;
+  --finli-ink-700: #3f413d;
+  --finli-ink-500: #6f706a;
+  --finli-ink-300: #aaaba5;
+  --finli-paper-500: #f3f2ee;
+  --finli-paper-300: #f7f6f2;
+  --finli-paper-100: #fbfaf7;
+  --finli-white: #ffffff;
+  --finli-danger-700: #8b3f38;
+  --finli-danger-100: #f8e7e3;
+  --finli-warning-700: #87511f;
+  --finli-warning-100: #fff1d8;
+  --finli-success-700: #276749;
+  --finli-success-100: #e4f3e9;
+  --finli-info-700: #245b6a;
+  --finli-info-100: #e2f3f8;
+
+  /* Semantic colour */
+  --ds-bg-canvas: var(--finli-paper-500);
+  --ds-bg-surface: var(--finli-paper-100);
+  --ds-bg-raised: var(--finli-white);
+  --ds-bg-inverse: var(--finli-forest-950);
+  --ds-bg-brand: var(--finli-forest-800);
+  --ds-bg-accent: var(--finli-lime-500);
+  --ds-text-primary: var(--finli-ink-950);
+  --ds-text-secondary: var(--finli-ink-500);
+  --ds-text-brand: var(--finli-forest-800);
+  --ds-text-inverse: var(--finli-white);
+  --ds-text-disabled: var(--finli-ink-300);
+  --ds-border-subtle: rgba(17, 17, 15, 0.11);
+  --ds-border-strong: rgba(23, 63, 50, 0.28);
+  --ds-focus-ring: rgba(201, 243, 106, 0.48);
+
+  /* Type */
+  --ds-font-sans: 'Finli Display', 'Inter', system-ui, sans-serif;
+  --ds-font-editorial: 'Finli Editorial', 'Instrument Serif', Georgia, serif;
+  --ds-font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --ds-text-xs: 0.6875rem;
+  --ds-text-sm: 0.8125rem;
+  --ds-text-md: 1rem;
+  --ds-text-lg: 1.25rem;
+  --ds-text-xl: 1.625rem;
+  --ds-text-2xl: clamp(2rem, 4vw, 3.5rem);
+  --ds-text-display: clamp(3rem, 7vw, 6.5rem);
+  --ds-leading-tight: 1.02;
+  --ds-leading-title: 1.12;
+  --ds-leading-body: 1.6;
+  --ds-tracking-tight: -0.045em;
+  --ds-tracking-label: 0.12em;
+
+  /* Space - 4px base */
+  --ds-space-0: 0;
+  --ds-space-1: 0.25rem;
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 0.75rem;
+  --ds-space-4: 1rem;
+  --ds-space-5: 1.25rem;
+  --ds-space-6: 1.5rem;
+  --ds-space-8: 2rem;
+  --ds-space-10: 2.5rem;
+  --ds-space-12: 3rem;
+  --ds-space-16: 4rem;
+  --ds-space-20: 5rem;
+  --ds-space-24: 6rem;
+  --ds-space-32: 8rem;
+
+  /* Shape and depth */
+  --ds-radius-sm: 0.5rem;
+  --ds-radius-md: 0.75rem;
+  --ds-radius-lg: 1rem;
+  --ds-radius-xl: 1.5rem;
+  --ds-radius-2xl: 2rem;
+  --ds-radius-pill: 999px;
+  --ds-shadow-xs: 0 1px 2px rgba(12, 41, 35, 0.06);
+  --ds-shadow-sm: 0 8px 24px rgba(12, 41, 35, 0.08);
+  --ds-shadow-md: 0 18px 50px rgba(12, 41, 35, 0.12);
+  --ds-shadow-lg: 0 32px 90px rgba(12, 41, 35, 0.17);
+
+  /* Motion */
+  --ds-duration-fast: 120ms;
+  --ds-duration-base: 220ms;
+  --ds-duration-slow: 420ms;
+  --ds-ease-standard: cubic-bezier(0.2, 0.75, 0.2, 1);
+  --ds-ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  /* Layout */
+  --ds-content-sm: 42rem;
+  --ds-content-md: 60rem;
+  --ds-content-lg: 74rem;
+  --ds-page-gutter: clamp(1rem, 4vw, 3.5rem);
+
+  /* Legacy aliases used by the marketing site */
+  --ink: var(--finli-ink-950);
+  --muted: var(--finli-ink-500);
+  --canvas: var(--finli-paper-500);
+  --surface: var(--finli-paper-100);
+  --line: var(--ds-border-subtle);
+  --lime: var(--finli-lime-500);
+  --green: var(--finli-forest-700);
+  --peach: var(--finli-peach-500);
+}
+
+:focus-visible {
+  outline: 3px solid var(--ds-focus-ring);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--finli-forest-950);
+  background: var(--finli-lime-300);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
